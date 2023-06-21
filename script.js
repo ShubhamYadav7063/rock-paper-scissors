@@ -64,9 +64,8 @@ function playRound(playerSelection) {
             disableButtons()
         }
     }
-
-    document.getElementById('results').innerHTML = result
     document.getElementById('results').classList.add('result')
+    document.getElementById('results').innerHTML = result
     return
 }
 
